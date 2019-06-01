@@ -8,7 +8,7 @@ class AdController {
       filters.price = {}
 
       if (req.query.price_min) {
-        filters.price.$gte = req.query.price_min
+        //filters.price.$gte = req.query.price_min
       }
 
       if (req.query.price_max) {
